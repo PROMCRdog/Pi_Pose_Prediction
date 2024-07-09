@@ -5,7 +5,7 @@ Use pose estimation to detect joint points. Train a model for certain structure 
 ## Inference and using the prediction model
 `cd ./inference_prediction`
 
-### Instal dependencies
+### Install dependencies
 Run `sh setup.sh` to  install neccessary packages for the enviornment
 
 ### Running pose prediction
