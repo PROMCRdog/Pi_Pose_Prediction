@@ -45,6 +45,14 @@ To increase the swap size on a Linux system, you have a few options. Here's a st
    free -h
    swapon --show
    ```
+**If the new swap file isn't listed, you'll need to add it to the /etc/fstab file to make it permanent. Here's how: a. Open /etc/fstab with a text editor (use sudo):**
+
+`sudo nano /etc/fstab`
+
+b. Add this line at the end of the file (if it's not already there):
+
+`/swapfile none swap sw 0 0`
+
 
 If you're using a swap partition instead of a file, the process is more complex and potentially risky. It typically involves:
 

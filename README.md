@@ -82,3 +82,6 @@ yoga_poses/
     |______ 00000306.jpg
     |______ ...
 ```
+
+## Additional Simplified Chinese OpenCV Tutorial
+tutorial_OpenCV.ipynb
