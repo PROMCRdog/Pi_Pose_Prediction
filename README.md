@@ -27,7 +27,7 @@ python pose_classification.py
 --frameHeight FRAME_HEIGHT
 ```
 *  Here is the full list of parameters supported by the sample:
-```python3 pose_classification.py```
+```python3 pose_estimation.py```
   *   `model`: Name of the TFLite pose estimation model to be used.
     *   One of these values: `posenet`, `movenet_lightning`, `movenet_thunder`, `movenet_multipose`
     *   Default value is `movenet_lightning`.
