@@ -1,5 +1,4 @@
 
-
 ## Expand Swap File
 To increase the swap size on a Linux system, you have a few options. Here's a step-by-step guide to increase swap size using a swap file, which is generally easier and more flexible than resizing a swap partition:
 
@@ -64,3 +63,9 @@ If you're using a swap partition instead of a file, the process is more complex 
 For swap partitions, it's often easier to add a swap file (as described above) in addition to the existing swap partition.
 
 Remember to be cautious when modifying system configurations. It's always a good idea to backup important data before making such changes.
+
+## Install VSCode
+
+
+
+## Install python enviornment

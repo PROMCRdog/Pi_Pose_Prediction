@@ -1,0 +1,22 @@
+The quick brown fox jumps over the lazy dog. This sentence is often used as a pangram, 
+which means it contains every letter of the alphabet. However, for our purposes, we'll 
+repeat it and add some more text to create a more interesting word frequency analysis.
+
+The lazy dog, tired of being jumped over, decided to take action. It enrolled in a 
+fitness program and soon became the quick dog. Meanwhile, the brown fox, no longer 
+feeling special, dyed its fur purple.
+
+Now we have a quick purple fox and a quick dog. The fox jumps over the dog, the dog 
+jumps over the fox. They jump and jump until they're both tired and lazy again.
+
+In the forest nearby, other animals watched this peculiar scene. The wise owl hooted, 
+"What's the purpose of all this jumping?" But the fox and the dog were too busy to answer.
+
+A group of squirrels started taking bets on who would stop jumping first. The rabbits 
+joined in, and soon there was a whole carnival atmosphere in the forest.
+
+As night fell, the fox and the dog finally stopped their jumping contest. They looked 
+at each other, laughed, and decided to get a pizza. Because even in the animal kingdom, 
+nothing ends a day of vigorous exercise better than some well-deserved junk food.
+
+The end. Or is it just the beginning of another jumpy day?
