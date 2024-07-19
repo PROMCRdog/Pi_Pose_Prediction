@@ -65,7 +65,45 @@ For swap partitions, it's often easier to add a swap file (as described above) i
 Remember to be cautious when modifying system configurations. It's always a good idea to backup important data before making such changes.
 
 ## Install VSCode
-
+get the .deb file and bash it
 
 
 ## Install python enviornment
+**do this first**: `sudo apt-get install libhdf5-dev`
+
+On the source machine:
+Activate your environment if it's a virtual environment
+source myenv/bin/activate  On Windows: myenv\Scripts\activate
+
+**Create a requirements file**
+`pip freeze > requirements.txt`
+
+**Create a directory for the wheels**
+`mkdir wheelhouse`
+
+**Download all the wheels**
+`pip wheel -r requirements.txt -w wheelhouse`
+
+**Now, copy the 'wheelhouse' directory and 'requirements.txt' to the target machine**
+
+On the target machine:
+Create and activate a new virtual environment if desired
+`python -m venv newenv`
+`source newenv/bin/activate  # On Windows: newenv\Scripts\activate`
+
+Install from the wheelhouse
+`pip install --no-index --find-links=wheelhouse -r requirements.txt`
+
+
+什么是python环境
+jupyer notebook code blcok 怎么跑
+怎么选kernel
+
+什么是AI
+这个肢体识别怎么实现的
+
+linux怎么连接SSH
+怎么压缩文件
+怎么上传文件
+
+
